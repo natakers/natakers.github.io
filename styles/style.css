@@ -406,7 +406,7 @@ letter-spacing: 2px;
 }
 
 .progress {
-  background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 49%, var(--bg-grey) 49%, var(--bg-grey) 100%);
+  background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 48%, var(--bg-grey) 48%, var(--bg-grey) 100%);
   /*border: solid 2px #82CFD0;*/
   /*border-radius: 8px;*/
   height: 8px;
