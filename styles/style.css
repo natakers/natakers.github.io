@@ -122,7 +122,7 @@ button {
 .underline-title::after {
   content: "";
   position: absolute;
-  bottom: -28px;
+  bottom: -26px;
   left: 0;
   right: 0;
   height: 3px;
