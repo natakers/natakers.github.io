@@ -879,7 +879,7 @@ line-height: 26px;
 }
 
 .social-icon:hover {
-	color: var(--font-gold);
+	filter: invert(56%) sepia(22%) saturate(560%) hue-rotate(356deg) brightness(92%) contrast(83%);
 }
 
 
