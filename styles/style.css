@@ -878,6 +878,10 @@ line-height: 26px;
 		margin-right: 0;
 }
 
+.social-icon:hover {
+	color: var(--font-gold);
+}
+
 
 .social-img {
 	width:24px;
