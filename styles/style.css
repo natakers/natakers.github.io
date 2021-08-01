@@ -399,6 +399,10 @@ letter-spacing: 2px;
 	justify-content: space-between;
 }
 
+.video-title {
+	margim-bottom: 0;
+}
+
 .progress {
   background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 40%, var(--bg-grey) 40%, var(--bg-grey) 100%);
   /*border: solid 2px #82CFD0;*/
