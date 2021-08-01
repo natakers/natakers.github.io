@@ -516,6 +516,8 @@ letter-spacing: 2px;
 .tickets-buy {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	flex-basis: 50%;
 
 
 }
