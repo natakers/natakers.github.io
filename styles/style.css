@@ -378,6 +378,7 @@ letter-spacing: 2px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	margin-top: 15px;
 	/*justify-content: space-between;*/
 }
 
