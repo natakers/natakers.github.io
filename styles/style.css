@@ -179,7 +179,7 @@ button {
 
 .header-nav-link {
 	margin-right: 76px;
-	max-width: 720px;
+	/*max-width: 720px;*/
 }
 .header-nav-link:last-child {
 		margin-right: 0;
@@ -338,7 +338,7 @@ letter-spacing: 2px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 22.5px;
 	line-height: 38px;
 	padding-bottom: 25px;
 	padding-right: 15px;
@@ -371,6 +371,7 @@ letter-spacing: 2px;
 	font-size: 22px;
 	line-height: 38px;
 	flex-basis: 50%;
+	align-items: center;
 }
 
 
@@ -387,7 +388,7 @@ letter-spacing: 2px;
 	height: 85px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	margin-bottom: 40px;
 	/*text-align: center;*/
 	/*align-items: center;*/
@@ -397,6 +398,7 @@ letter-spacing: 2px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .video-title {
@@ -412,6 +414,7 @@ letter-spacing: 2px;
   outline: none;
   transition: background 450ms ease-in;
   -webkit-appearance: none;
+   margin-right: 42px;
 }
 
 .progress::-webkit-slider-thumb {
@@ -421,6 +424,7 @@ letter-spacing: 2px;
   -webkit-appearance: none;
   cursor: pointer;
   background: var(--font-white);
+
 }
 
 
@@ -433,6 +437,7 @@ letter-spacing: 2px;
   outline: none;
   transition: background 450ms ease-in;
   -webkit-appearance: none;
+   margin-right: 48px;
 }
 
 .volume-progress::-webkit-slider-thumb {
@@ -458,18 +463,20 @@ letter-spacing: 2px;
 
 .prev {
 	background-image: url(../images/prev.svg);
-	width: 26px;
+	width: 27px;
 	height: 30px;
 	background-color: var(--bg-dark);
 	border: none;
-	/*margin-left: 41px;*/
+	margin-left: 41px;
+	margin-right: 42px;
 }
 .play-small {
 	background-image: url(../images/play_small.svg);
-	width: 22px;
+	width: 23px;
 	height: 30px;
 	background-color: var(--bg-dark);
 	border: none;
+	margin-right: 42px;
 }
 .next {
 	background-image: url(../images/next.svg);
@@ -477,6 +484,7 @@ letter-spacing: 2px;
 	height: 30px;
 	background-color: var(--bg-dark);
 	border: none;
+	margin-right: 42px;
 }
 
 .volume {
@@ -485,6 +493,7 @@ letter-spacing: 2px;
 	height: 31px;
 	background-color: var(--bg-dark);
 	border: none;
+	margin-right: 20px;
 }
 
 .display {
