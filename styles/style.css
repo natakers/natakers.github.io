@@ -177,6 +177,16 @@ button {
 
 }
 
+.nav-link:hover {
+	color: var(--font-gold);
+
+}
+
+.nav-link:active {
+	color: var(--font-gold);
+	
+}
+
 .header-nav-link {
 	margin-right: 76px;
 	/*max-width: 720px;*/
