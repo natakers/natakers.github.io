@@ -406,7 +406,7 @@ letter-spacing: 2px;
 }
 
 .progress {
-  background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 40%, var(--bg-grey) 40%, var(--bg-grey) 100%);
+  background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 49%, var(--bg-grey) 49%, var(--bg-grey) 100%);
   /*border: solid 2px #82CFD0;*/
   /*border-radius: 8px;*/
   height: 8px;
@@ -418,8 +418,8 @@ letter-spacing: 2px;
 }
 
 .progress::-webkit-slider-thumb {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   -webkit-appearance: none;
   cursor: pointer;
@@ -429,7 +429,7 @@ letter-spacing: 2px;
 
 
 .volume-progress {
-  background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 40%, var(--bg-grey) 40%, var(--bg-grey) 100%);
+  background: linear-gradient(to right, var(--bg-blue) 0%, var(--bg-blue) 43%, var(--bg-grey) 43%, var(--bg-grey) 100%);
   /*border: solid 2px red;*/
   /*border-radius: 8px;*/
   height: 8px;
@@ -441,8 +441,8 @@ letter-spacing: 2px;
 }
 
 .volume-progress::-webkit-slider-thumb {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   -webkit-appearance: none;
   cursor: pointer;
@@ -484,13 +484,13 @@ letter-spacing: 2px;
 	height: 30px;
 	background-color: var(--bg-dark);
 	border: none;
-	margin-right: 42px;
+	margin-right: 40px;
 }
 
 .volume {
 	background-image: url(../images/volume.svg);
 	width: 37px;
-	height: 31px;
+	height: 30px;
 	background-color: var(--bg-dark);
 	border: none;
 	margin-right: 20px;
