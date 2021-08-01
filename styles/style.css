@@ -139,6 +139,13 @@ button {
   background-color: var(--dark-red);
 }
 
+.cart-link:hover .underline-cart::after {
+	/*transform: scaleX(1.2);*/
+
+  right: 0;
+  transition: all 1s linear 0s;
+}
+
 /*-----------Header---------------*/
 
 .header {	
@@ -210,9 +217,11 @@ button {
     height: 750px;
 }
 
-.welcome-title {
+.welcome-container .welcome-title {
 	max-width: 598px;
-	padding-bottom: 26px;
+	/*padding-bottom: 26px;*/
+	margin-bottom: 26px;
+
 }
 
 .welcome-container {
@@ -255,6 +264,7 @@ letter-spacing: 2px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding-bottom: 0;
 
 }
 
