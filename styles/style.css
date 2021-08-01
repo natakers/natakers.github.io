@@ -745,7 +745,7 @@ line-height: 26px;
 .footer-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
 .footer-container>div {
@@ -753,7 +753,7 @@ line-height: 26px;
 }
 
 .footer-logo {
-	/*margin-right: 145px;*/
+	margin-right: 145px;
 }
 .footer-logo-link {
 	color: var(--font-white);
@@ -783,6 +783,7 @@ line-height: 26px;
 	display: flex;
 	flex-direction: column;
 	flex-basis: 35%;
+	margin-right: 398px;
 	/*flex-grow: 1;*/
 	/*flex-wrap: wrap;*/
 	/*max-height: 150px;*/
@@ -820,10 +821,10 @@ line-height: 26px;
 .social-icon::before {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-    top: -13px;
+    width: 48px;
+    height: 48px;
+    left: 1px;
+    top: -12px;
     background: url(../images/ring.svg) center center no-repeat;
     background-size: cover;
 }
@@ -832,7 +833,7 @@ line-height: 26px;
 .social-icon {
 	text-align: center;
 	/*padding-top: 13px;*/
-	margin-right: 24px;
+	margin-right: 22px;
 }  
 
 
