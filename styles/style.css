@@ -251,6 +251,7 @@ button {
 
 .button-discover:hover {
 	background-color: var(--font-gold);
+	color: var(--bg-dark);
 
 }
 
