@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-	color: #D19673;
+	color: var(--font-gold);
 }
 
 h1 {
@@ -248,6 +248,16 @@ button {
 	/*opacity: 0.5;*/
 
 }
+
+.button-discover:hover {
+	background-color: var(--font-gold);
+
+}
+
+.button-discover:active {
+
+}
+
 
 .welcome-p {
 	font-family: Roboto;
@@ -615,6 +625,12 @@ line-height: 26px;
 	text-align: center;
 	letter-spacing: 2px;
 	/*text-align: center;*/
+}
+
+
+.buy-now:hover {
+	background-color: var(--font-gold);
+
 }
 
 .total{
