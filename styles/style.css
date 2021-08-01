@@ -338,9 +338,10 @@ letter-spacing: 2px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 22.5px;
+	font-size: 22px;
 	line-height: 38px;
 	padding-bottom: 25px;
+	padding-right: 15px;
 }
 
 .explore-text-p_yellow {
@@ -366,7 +367,7 @@ letter-spacing: 2px;
 .video-p {
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 22px;
 	line-height: 38px;
 	flex-basis: 50%;
