@@ -878,7 +878,7 @@ line-height: 26px;
 		margin-right: 0;
 }
 
-.social-icon:hover, .social-img:hover {
+.social-icon:hover, .social-img:hover, .footer-logo-link:hover {
 	filter: invert(56%) sepia(22%) saturate(560%) hue-rotate(356deg) brightness(92%) contrast(83%);
 	background-color: var(--font-gold);
 	cursor: pointer;
