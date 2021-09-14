@@ -65,18 +65,18 @@
 			</section>
 			<section id="code" class="code">
 				<h2 class="title">code</h2>
-				<pre><code class="language-javascript">function countCats(matrix) {
+				<pre><code class="language-javascript">function countCats(m) {
 var count = 0;
-	for (var i=0; i<=matrix.length+1; i++) { 	  
-		for (var j=0; j<=matrix[i].length+1; j++) {
-			if (matrix[i][j] == '^^') {
-				count++ 
-			}
-  	  	}
-  	}
-  	return count;
+ for (var i=0; i<=m.length+1; i++){
+  for (var j=0; j<=m[i].length+1; j++){
+   if (m[i][j] == '^^') {
+    count++;
+   }
+  }
+ }
+ return count;
 }</code></pre>
-				<!-- <p>var OrderPeople = function(people){ return people.sort( (a, b) => { return a['age'] - b['age']; }) }</p> -->
+
 			</section>
 			<section id="projects" class="projects">
 				<h2 class="title">projects</h2>
