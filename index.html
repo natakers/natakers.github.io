@@ -37,7 +37,7 @@
 			<img class="foto-img" src="pictures/foto.jpg" alt="foto">
 			<h1 class="title">Kersnovskaia Natalia</h1>
 			</section>
-			<section name="contacts" class="contacts">
+			<section id="contacts" class="contacts">
 				<h2 class="title">contacts</h2>
 				<ul class="mail-ul">
 					<li class="mail">n.kersnovskaia@gmail.com</li>
@@ -65,7 +65,13 @@
 			</section>
 			<section id="code" class="code">
 				<h2 class="title">code</h2>
-				<pre><code class="language-javascript">function countCats(m) {
+				<pre><code class="language-javascript">
+var OrderPeople = function(people){
+ return people.sort( (a, b) => {
+  return a['age'] - b['age']; 
+ }) 
+}
+					<!-- function countCats(m) {
 var count = 0;
  for (var i=0; i<=m.length+1; i++){
   for (var j=0; j<=m[i].length+1; j++){
@@ -74,7 +80,7 @@ var count = 0;
    }
   }
  }
- return count;
+ return count; -->
 }</code></pre>
 
 			</section>
