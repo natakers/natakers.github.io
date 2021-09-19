@@ -174,9 +174,9 @@ nav, .nav {
    content: '';
    width: 0;
    height: 0;
-   border-left: 120px solid transparent;
+   border-left: 100px solid transparent;
    border-top: 20px solid transparent;
-   border-right: 120px solid #fff;
+   border-right: 100px solid #fff;
    border-bottom: 20px solid #fff;
    position: absolute;
    bottom: 0;
@@ -187,9 +187,9 @@ nav, .nav {
    content: '';
    width: 0;
    height: 0;
-   border-left: 120px solid #fff;
+   border-left: 100px solid #fff;
    border-top: 20px solid #fff;
-   border-right: 120px solid transparent;
+   border-right: 100px solid transparent;
    border-bottom: 20px solid transparent;
    position: absolute;
    top: 0;
@@ -314,15 +314,34 @@ nav, .nav {
       max-width: 500px;
       /*flex-direction: column;*/
     }
+         .corner:after {
+   border-left: 50px solid transparent;
+   border-top: 10px solid transparent;
+   border-right: 50px solid #fff;
+   border-bottom: 10px solid #fff;
+
+ }
+
+  .corner:before {
+   border-left: 50px solid #fff;
+   border-top: 10px solid #fff;
+   border-right: 50px solid transparent;
+   border-bottom: 10px solid transparent;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
   }
 
   @media screen and (max-width: 320px) {
     footer, main, header {
-      width: 300px;
+      width: 320px;
       flex-direction: column;
     }
     pre, .nav  {
-      max-width: 300px;
+      max-width: 320px;
       /*flex-direction: column;*/
     }
+
+
     }
